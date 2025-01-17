@@ -3,6 +3,7 @@ layout: null
 ---
 
 @import url("pygment_highlights.css");
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
 
 :root {
   /* config file CSS variables */
@@ -20,7 +21,7 @@ layout: null
 
   /* common CSS variables */
   --body-font: 'Lora', 'Times New Roman', serif;
-  --header-font: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --header-font: 'Do Hyeon', serif;
   --mid-col: #808080;
 }
 

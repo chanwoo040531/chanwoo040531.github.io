@@ -4,6 +4,7 @@ layout: null
 
 @import url("pygment_highlights.css");
 @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
 
 :root {
   /* config file CSS variables */
@@ -20,7 +21,7 @@ layout: null
   --footer-hover-col: {{ site.footer-hover-col | default: "#0085A1" }};
 
   /* common CSS variables */
-  --body-font: 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif, 'Noto Emoji';
+  --body-font: 'Noto Sans KR', 'Malgun Gothic', sans-serif, 'Noto Emoji', serif;
   --header-font: 'Do Hyeon', 'Open Sans', 'Helvetica Neue', serif;
   --mid-col: #808080;
 }

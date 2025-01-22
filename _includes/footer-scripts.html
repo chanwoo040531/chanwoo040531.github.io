@@ -36,3 +36,18 @@
     <script src="{{ js | relative_url }}"></script>
   {% endfor %}
 {% endif %}
+
+<!-- mermaid.js -->
+{% if page.mermaid %}
+  <script type="text/javascript"
+          src="https://unpkg.com/mermaid@11.4.1/dist/mermaid.min.js"
+          charset="utf-8">
+  </script>
+  <script>
+    $(document).ready(function () {
+      mermaid.initialize({
+        theme: 'neutral',
+      });
+    });
+  </script>
+{% endif %}
